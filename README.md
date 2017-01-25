@@ -1,3 +1,9 @@
+# About
+
+This project is setup as an example for the an issue that I was encountering with enums within frameworks not being accessible. It looks like it works but I am keeping this repo to link on stackoverflow.
+
+http://stackoverflow.com/questions/41855494/unable-to-access-public-enum-from-within-a-framework
+
 # MyCustomModule
 
 [![CI Status](http://img.shields.io/travis/Anurag Ajwani/MyCustomModule.svg?style=flat)](https://travis-ci.org/Anurag Ajwani/MyCustomModule)
