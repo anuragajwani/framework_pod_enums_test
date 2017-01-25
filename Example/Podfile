@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyCustomModule_Example' do
+  pod 'MyCustomModule', :path => '../'
+
+  target 'MyCustomModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
