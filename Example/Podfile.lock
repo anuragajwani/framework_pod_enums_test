@@ -1,0 +1,16 @@
+PODS:
+  - MyCustomModule (0.1.0)
+
+DEPENDENCIES:
+  - MyCustomModule (from `../`)
+
+EXTERNAL SOURCES:
+  MyCustomModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyCustomModule: 6fcc32068bbb64d9dcb2f02b6e23b3d702095cc6
+
+PODFILE CHECKSUM: 8e14426ddcbaa7a32fae288dace76ba1d4e42c80
+
+COCOAPODS: 1.1.1

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import MyCustomModule
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let error: Error = MyCustomModule.MyCustomError.customCase(message: "test_message")
+        
+        if case let MyCustomModule.MyCustomError.customCase(theErrorMessage) = error {
+            print(theErrorMessage)
+        }
     }
 
     override func didReceiveMemoryWarning() {
